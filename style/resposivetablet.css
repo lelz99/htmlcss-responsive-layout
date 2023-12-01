@@ -1,0 +1,64 @@
+/* Tablet Version 768px */
+
+.row.list{
+    margin: 20px 0px;
+}
+
+.col-list{
+    padding: 0 0px;
+}
+
+@media screen and (min-width: 768px) {
+
+    main{
+        padding: 20px 50px;
+    }
+
+    h1{
+        text-align: start;
+    }
+    
+    h2::after{
+       content: "(Dolce Tradizionale)";
+    }
+
+    .row.list{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .col-list{
+        flex-basis: calc(100% / 3);
+    }
+
+    .card-list{
+        font-size: 14px;
+    }
+
+    .social > li{
+        padding: 10px 50px;
+        box-shadow: 5px 5px 5px #dedede;
+    }
+
+    #banner{
+        display: block;
+        max-width: 100%;
+    }
+
+   img{
+       float: left;
+       max-width: 50%;
+       margin-right: 20px;
+    }
+
+   .presentation-text{
+       font-size: 1rem;
+    }
+
+   .info-company > li{
+       font-size: 14px;
+    }
+}
+
+
+/* Desktop version 992px */

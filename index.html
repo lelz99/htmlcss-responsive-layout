@@ -14,6 +14,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/resposivetablet.css">
 </head>
 <body>
 
@@ -36,7 +37,7 @@
         <!-- Informazioni Ricetta -->
         <section class="jumbotron">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/JVT900H6s0g?si=DPBlh_o66E_9yamO" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <div class="container-info">
+            <div class="container-xs">
                 <div class="box">
                     <div class="row info">
                         <p>544 Kcal</p>
@@ -44,17 +45,37 @@
                     </div>
                     <p><i class="fa-solid fa-carrot"></i>Vegetariana</p>
                 </div>
-                <ul class="">
-                    <li><p><i class="fa-solid fa-blender"></i>Difficoltà: <span class="bold">Facile</span></p></li>
-                    <li><p><i class="fa-solid fa-clock"></i>Tempo: <span class="bold">40 min</span></p></li>
-                    <li><p><i class="fa-solid fa-chart-pie"></i>Porzione per: <span class="bold">8 persone</span></p></li>
-                    <li><p><i class="fa-solid fa-euro-sign"></i>Costo: <span class="bold">contenuto</span></p></li>
-                    <li><p><i class="fa-solid fa-thumbtack"></i><span class="bold">Note: </span>+2 ore di riposo in frigo</p></li>
-                </ul>
+                <div class="row list">
+                    <div class="col-list">
+                        <div class="card-list">
+                            <i class="fa-solid fa-blender"></i>Difficoltà: <span class="bold">Facile</span>
+                        </div>
+                    </div>
+                    <div class="col-list">
+                        <div class="card-list">
+                            <i class="fa-solid fa-clock"></i>Tempo: <span class="bold">40 min</span>
+                        </div>
+                    </div>
+                    <div class="col-list">
+                        <div class="card-list">
+                            <i class="fa-solid fa-chart-pie"></i>Porzioni per: <span class="bold">8 persone</span>
+                        </div>
+                    </div>
+                    <div class="col-list">
+                        <div class="card-list">
+                            <i class="fa-solid fa-euro-sign"></i>Costo: <span class="bold">contenuto</span>
+                        </div>
+                    </div>
+                    <div class="col-list">
+                        <div class="card-list">
+                            <i class="fa-solid fa-thumbtack"></i><span class="bold">Note:</span> +2 ore di riposo in frigo
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Social Network -->
-        <section>
+        <section class="">
             <ul class="row social">
                 <li><a class="c-blue" href="#"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
                 <li><a class="c-azure" href="#"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
@@ -66,6 +87,7 @@
 
         <!-- Presentazione Ricetta -->
         <section class="presentation">
+            <img id="banner" src="img/banner.png" alt="">
             <h3>Presentation</h3>
             <div class="line"></div>
             <img src="img/tiramisu.jpg" alt="">

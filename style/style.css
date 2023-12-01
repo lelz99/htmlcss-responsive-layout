@@ -47,7 +47,7 @@ h1{
     font-family: 'Nerko One', cursive;
     text-align: center;
     font-size: 3rem;
-    padding: 10px 0;
+    padding: 10px 20px;
 
     background-color: white;
     color: #ff9614;
@@ -70,11 +70,11 @@ h4{
 .row.title{
     justify-content: space-between;
     align-items: center;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 h2{
-    font-weight: 900;
+    font-weight: bolder;
     font-size: 2rem;
 
     color: #4e3969;
@@ -105,8 +105,8 @@ iframe{
     border: 0
 }
 
-.container-info{
-    max-width: 80%;
+.container-xs{
+    max-width: 90%;
     margin: 20px auto;
 }
 
@@ -138,6 +138,20 @@ iframe{
     font-weight: 900;
 }
 
+.row.list{
+
+    flex-direction: column;
+}
+
+.card-list > i {
+    color: #ff9614;
+    margin-right: 5px;
+}
+
+.card-list{
+    margin: 10px 0;
+}
+
 /* Sezione Social */
 
 .social.row{
@@ -167,6 +181,14 @@ iframe{
 }
 
 /* Sezione presentazione */
+
+#banner{
+    display: none;
+}
+
+.presentation{
+    margin-bottom: 30px;
+}
 
 h3{
     font-size: 2rem;
