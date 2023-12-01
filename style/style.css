@@ -118,7 +118,7 @@ iframe{
 .row.info{
     justify-content: space-between;
     align-items: center;
-    margin: 10px 0;
+    margin-bottom: 10px;
 }
 
 .info p:first-child{
@@ -129,7 +129,7 @@ iframe{
     font-weight: 700;
 
     padding: 5px 10px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .info p:last-child{
@@ -159,6 +159,7 @@ iframe{
 }
 
 .social > li{
+    font-size: 12px;
     padding: 10px;
     background-color: white;
     border-radius: 20px;
