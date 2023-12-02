@@ -40,8 +40,15 @@ li{
     margin: 15px 0;
 }
 
-/* Header Name */
+a{
+    text-decoration: none;
+}
 
+.c-black{
+    color: black;
+}
+
+/* Header Name */
 
 h1{
     font-family: 'Nerko One', cursive;
@@ -81,7 +88,7 @@ h2{
 }
 
 
-.rate > span {
+.rate{
     font-weight: bold;
     color: white;
 
@@ -102,7 +109,7 @@ h2{
 iframe{
     display: block;
     width: 100%;
-    border: 0
+    border: 0;
 }
 
 .container-xs{
@@ -112,13 +119,15 @@ iframe{
 
 .box{
     background-color: #f6f5f9;
-    padding: 10px 20px;
+    padding: 5px 10px;
 }
 
 .row.info{
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
 }
 
 .info p:first-child{
@@ -139,7 +148,6 @@ iframe{
 }
 
 .row.list{
-
     flex-direction: column;
 }
 
@@ -228,8 +236,8 @@ footer{
 }
 
 h5{
-  font-size: 1rem;
-  margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
 }
 
 h5 > i{
@@ -246,6 +254,7 @@ h5 > i{
     padding: 0 10px;
 }
 
-.c-white{
+.info-company > li > a {
     color: white;
+    text-decoration: underline;
 }
